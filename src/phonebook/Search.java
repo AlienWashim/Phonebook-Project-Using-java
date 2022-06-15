@@ -20,7 +20,7 @@ public class Search extends JFrame implements ActionListener{
     Search(){
         super("Searching");
         setSize(450,200);
-        add(panel);
+        add(panel); 
         
         JButton button1=new JButton("Search");
         button1.setBackground(Color.cyan);
